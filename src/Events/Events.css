@@ -1,0 +1,49 @@
+.events{
+    padding: 5rem;
+}
+.event-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 3rem;
+    padding-bottom: 5rem;
+    margin-top: -6rem;
+
+}
+.event-item{
+    width: 20rem;
+    height: 9rem;
+    border-radius: 10px;
+    text-align: justify;
+    margin-top: 10rem;
+}
+
+.event-image-container{
+    height: 15rem;
+    width: 20rem;
+}
+.event-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.event-item h1{
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.event-item h2{
+    font-size: 1rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+@media(max-width:640px){
+    .event-container{
+        margin-top: -8rem;
+    }
+ 
+}

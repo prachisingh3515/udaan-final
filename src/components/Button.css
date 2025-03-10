@@ -1,0 +1,18 @@
+.action-btn{
+    background-color: rgb(77, 185, 240);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.action-btn:hover{
+    scale: 1.05;
+    color: white;
+}

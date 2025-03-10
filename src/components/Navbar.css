@@ -1,0 +1,96 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 2px solid black;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: rgb(77, 185, 240);
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+.action-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .toggle-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.mobile-action-menu{
+    display: none;
+}
+/* Responsive Design */
+@media (max-width: 1007px) {
+    .navbar {
+        padding: 1rem;
+        
+    }
+
+    .navbar .links {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: none;
+        padding: 1rem;
+        
+    }
+
+    .navbar .links.open {
+        display: flex;
+    }
+
+    .navbar .toggle-btn {
+        display: block;
+    }
+
+    .action-menu {
+        display: none;
+    }
+    .mobile-action-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .mobile-action-menu button {
+        width: 100%; 
+        text-align: center;
+    }
+}
+
+
+
+

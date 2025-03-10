@@ -1,0 +1,83 @@
+.register{
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(217, 241, 252); 
+    min-height: 100vh;
+}
+.register-form{
+    background-color: white;
+    padding: 2rem;
+    height: 36rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 1.5rem;
+}
+
+.register-user{
+    padding-top: 2rem;
+}
+.register-user input{
+    height: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(169, 159, 159);
+}
+
+.register-pwd input{
+    height: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(169, 159, 159);
+}
+.register-error{
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+}
+.register-btn{
+    margin-top: 1.5rem;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 5px;
+    background-color: rgb(196, 229, 245);
+    cursor: pointer;
+    border: 1px solid rgb(196, 229, 245);;
+}
+.register-options{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: -6rem;
+}
+.register-options p{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    
+}
+.register-options div{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    gap: 2rem;    
+}
+
+@media(max-width:640px){
+    .register-form{
+        width: 80vw;
+    }
+    .register-user{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    .register-pwd{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+}

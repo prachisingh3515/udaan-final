@@ -1,0 +1,82 @@
+.userfeed{
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(217, 241, 252); 
+    min-height: 100vh;
+}
+.userfeed-form{
+    background-color: white;
+    padding: 2rem;
+    height: 25rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 1.5rem;
+}
+.userfeed-head{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.userfeed-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif ;
+    font-weight: 500;
+}
+.userfeed-feedback textarea{
+    border-radius: 10px;
+    height: 7rem;
+    width: 25rem;
+    border: 2px solid rgb(174, 226, 250); 
+    padding: 1rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    overflow: hidden;
+    
+}
+.userfeed-feedback textarea:focus{
+    outline: none;   
+}
+.userfeed-btn{  
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: rgb(196, 229, 245);
+    cursor: pointer;
+    border: 1px solid rgb(196, 229, 245);
+    margin-top: 1rem;
+}
+.userfeed-thanks{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: auto 0;
+}
+@media(max-width:640px){
+    .userfeed-thanks{
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+    .userfeed-form{
+        width: 80vw;
+    }
+    .userfeed-feedback{
+        width: 90%;
+    }
+    .userfeed-feedback textarea{
+        width: 90%;
+    }
+}
+@media (min-width:641px) and (max-width: 1007px){
+    .feedback-head1{
+        text-align: center;
+    }
+
+}

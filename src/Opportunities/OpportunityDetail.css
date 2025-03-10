@@ -1,0 +1,111 @@
+
+.opportunity-detail{
+    padding: 5rem;
+    background-color:rgb(217, 241, 252); 
+}
+.opportunity-detail-title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    padding-top: 3rem;
+}
+.opportunity-detail-company{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: rgb(76, 70, 70);
+}
+.opportunity-detail-container1{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif ;
+    font-weight: 500;
+}
+.opportunity-detail-container1 p{
+    background-color: rgb(197, 203, 209);
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+.opportunity-detail-subhead{
+    padding-top: 2rem;
+    font-family: "Inter", sans-serif ;
+}
+.opportunity-detail-para{
+    padding-top: 0.5rem;
+    font-family: "Inter", sans-serif ;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+}
+.opportunity-detail-question{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Inter", sans-serif ;
+}
+.opportunity-detail-textarea{
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    height: 5rem;
+    width: 30rem;
+    border: solid black 2px;
+}
+.opportunity-detail-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;  
+    margin-left: 30rem; 
+    padding: 1rem;
+    width: 10rem;
+}
+.opportunity-detail-btn:hover {
+    background-color: #0056b3;
+  }
+
+.opportunity-detail-applied{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Inter", sans-serif ;
+    color:#0056b3;
+}
+
+@media(max-width:640px){
+    .opportunity-detail{
+        padding-left: 2rem;
+    }
+    .opportunity-detail-title{
+        font-size: 2rem;
+    }
+    .opportunity-detail-company{
+        font-size: 1.5rem; 
+    }
+    .opportunity-detail-container1{
+        gap: 1rem;
+        font-size: 0.7rem;
+    }
+    .opportunity-detail-container1 p{
+        border-radius: 0.7rem;
+    }
+    .opportunity-detail-para{
+        width: 80vw;
+    }
+    .opportunity-detail-textarea{
+        width: 80vw;
+    }
+    .opportunity-detail-btn{
+        margin-left: 0;
+    }
+}
+@media (min-width:641px) and (max-width: 1007px){
+    .opportunity-detail-btn{
+        margin-left: 0;
+    }
+}

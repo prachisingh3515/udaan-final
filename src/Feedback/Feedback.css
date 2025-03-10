@@ -1,0 +1,92 @@
+.feedback{
+    padding: 5rem;
+}
+.feedback-para{
+    padding-top: 3rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(70, 66, 66);
+}
+.feedback-head1{
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    padding-top: 3rem;
+}
+.feedback1-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 3rem;
+}
+.feedback1-item{
+    border: 2px solid rgb(77, 185, 240);
+    box-shadow: 5px 5px 10px rgba(69, 199, 243, 0.3);
+    display: flex;
+    width: 22rem;
+    height: 10rem;
+    border-radius: 10px;
+    text-align: justify;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.feedback1-item h1{
+    font-size: 1rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    
+}
+.feedback1-item h2{
+    font-size: 0.8rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    color: rgb(70, 66, 66);
+    cursor: pointer;
+}
+.feedback1-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.feedback1-item img{
+    border-radius: 50%;
+}
+.feedback-button{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+@media(max-width:640px){
+    .feedback{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback-para{
+       font-size: 1.2rem;
+       width: 80vw;
+    }
+    .feedback-head1{
+        text-align: center;
+        width: 75vw;
+    }
+    .feedback1-container{
+        width: 80vw;
+    }
+    .feedback1-item{
+        height: max-content;
+    }
+    .feedback-button{
+        width: 90vw;
+    }
+
+}
+@media (min-width:641px) and (max-width: 1007px){
+    .feedback-head1{
+        text-align: center;
+    }
+}
