@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Landing from "./Landing"
-import DYN from './DYN'
+import DYN from './Dyn'
 import About from './About'
 import Feature from './Feature'
 import Support from './Support'
