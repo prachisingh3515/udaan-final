@@ -1,5 +1,6 @@
 import React from "react";
 import "./Landing.css"; 
+import video from '../assets/video.mp4';
 
 const VideoComponent = () => {
   return (
@@ -11,7 +12,7 @@ const VideoComponent = () => {
         loop
         playsInline 
       >
-        <source src="src\assets\video.mp4" type="video/mp4" />
+        <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
