@@ -3,6 +3,8 @@ import { IoMenu, IoClose } from "react-icons/io5";
 import "./Navbar.css";
 import Button from "./Button.jsx";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png';
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +13,7 @@ const Navbar = () => {
     <header>
       <div className='navbar'>
         <div className='logo'>
-          <img src="src/assets/logo.png" height="40rem" width="90rem" alt="" />
+          <img src={logo} height="40rem" width="90rem" alt="" />
         </div>
         
         <ul className={`links ${menuOpen ? 'open' : ''}`}>
