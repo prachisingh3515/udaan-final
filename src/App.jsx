@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from "./Hero/Hero"
 import Donate from "./Donate/Donate.jsx"
 import Events from "./Events/Events.jsx"
+import EventDetail from "./Events/EventDetail.jsx"
 import Feedback from "./Feedback/Feedback.jsx"
 import UserFeedback from "./Feedback/UserFeedback.jsx"
 import Opportunities from "./Opportunities/Opportunities.jsx"
@@ -28,6 +29,7 @@ function App() {
         <Route path="/opportunity/:id" element={<OpportunityDetail />} />
         <Route path='/donate' element={<Donate/>} />
         <Route path='/events' element={<Events/>} />
+        <Route path='/event/:id' element={<EventDetail/>} />
         <Route path='/feedback' element={<Feedback/>}/>
         <Route path='/your-feedback' element={<UserFeedback/>}/>
         <Route path='/login' element={<Login/>}/>
