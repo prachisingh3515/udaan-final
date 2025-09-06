@@ -4,8 +4,6 @@ import "./Donate.css"
 
 const Donate = () => {
 
-  
-
   return (
     <div className='donate'>
       <h1 className='donate-head'>Support a Cause, Make a Difference</h1>
